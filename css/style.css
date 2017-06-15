@@ -1,0 +1,124 @@
+.btn:focus, .btn-shorten:focus{
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #4791D2;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.btn-shorten {
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+ 
+}
+
+.btn-shorten:hover,
+.btn-shorten:focus,
+.btn-shorten:active,
+.btn-shorten.active {
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+ }
+
+.main-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  
+}
+
+.inner {
+  padding: 30px;
+}
+
+.inner h4 {
+  padding-bottom: 30px;
+}
+
+.glyphicon-link {
+  font-size: 2em;
+}
+
+.inner h1 {
+  margin-top: 5px;
+}
+
+#link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#link a{
+  color: white;
+  font-size: 1.4em;
+  font-style: italic;
+  
+}
+
+#session-id table {
+    background-color: white;
+    width: 100%;
+    max-width: 25vw;
+    border-spacing: 2px;
+    border-color: grey;
+    
+}
+#session-id td {
+    width: 100%;
+    max-width: 25vw;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+#session-id th {
+    text-align: left;
+    background-color: #cecece;
+    color: #646464;
+   
+}
+#session-id th, #session-id td {
+	text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+#session-id tr {
+	border: 1px solid #ddd;
+}
+#session-id tr:nth-child(even) {background: #f5f5f5}
+#session-id tr:nth-child(odd) {background: #FFF}
+#session-id tr:hover {background-color: #dbdbdb;}
+
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    width: 700px;
+  }
+}
